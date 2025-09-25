@@ -15,6 +15,8 @@
     --light-highlight-color: #7a9fc2; /* glacier blue */
 }
 
+/* Global Styes */
+
 body {
     font-family: var(--primary-font);
 }
@@ -71,6 +73,7 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -82,3 +85,41 @@ h2 {
     border: 2px solid white;
     background-color: lightgrey;
 } */
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768 px and up */
+
+@media screen and (min-width: 768px) {
+    /* Ensures all service cards use the same height, creating consistent appearance */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large devices (992px and up) */
+
+@media screen and (min-width: 992px) {
+    /* Ensures all service cards use the same height, creating consistent appearance */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* XL devices (1200px and up) */
+
+@media screen and (min-width: 1200px) {
+    /* Ensures all service cards use the same height, creating consistent appearance */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XXL devices (1400px and up) */
+
+@media screen and (min-width: 1400px) {
+    /* Ensures all service cards use the same height, creating consistent appearance */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
