@@ -45,6 +45,18 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+}
+
 /* Buttons */
 
 .custom-button-filled {
